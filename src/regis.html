@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | PINTAR</title>
+    <title>Register | PINTAR</title>
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,8 +23,18 @@
         </div>
         <div class="flex w-1/2 h-full items-center bg-secondary rounded-l-[48px]">
             <div class="flex flex-col w-full items-center space-y-6">
-                <h1 class="font-bold text-5xl text-accent">Welcome</h1>
+                <h1 class="font-bold text-5xl text-accent">Create Your Account</h1>
                 <div class="w-80 flex flex-col space-y-6">
+                    <div class="relative h-14 w-full min-w-[200px]">
+                      <input
+                        class="peer h-full w-full border-b border-gray-900 bg-transparent pt-4 pb-1.5 font-sans text-xl font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                        placeholder=" "
+                        type="text"
+                      />
+                      <label class="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-500 transition-all after:absolute after:-bottom-1.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-900 after:transition-transform after:duration-300 peer-placeholder-shown:text-xl peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-blue-gray-500 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                        Name
+                      </label>
+                    </div>
                     <div class="relative h-14 w-full min-w-[200px]">
                       <input
                         class="peer h-full w-full border-b border-gray-900 bg-transparent pt-4 pb-1.5 font-sans text-xl font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
@@ -36,19 +46,29 @@
                       </label>
                     </div>
                     <div class="relative h-14 w-full min-w-[200px]">
-                      <input
-                        class="peer h-full w-full border-b border-gray-900 bg-transparent pt-4 pb-1.5 font-sans text-xl font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
-                        placeholder=" "
-                        type="text"
-                      />
-                      <label class="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-500 transition-all after:absolute after:-bottom-1.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-900 after:transition-transform after:duration-300 peer-placeholder-shown:text-xl peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-blue-gray-500 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
-                        Password
-                      </label>
-                    </div>
+                        <input
+                          class="peer h-full w-full border-b border-gray-900 bg-transparent pt-4 pb-1.5 font-sans text-xl font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                          placeholder=" "
+                          type="text"
+                        />
+                        <label class="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-500 transition-all after:absolute after:-bottom-1.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-900 after:transition-transform after:duration-300 peer-placeholder-shown:text-xl peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-blue-gray-500 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                          Password
+                        </label>
+                      </div>
+                      <div class="relative h-14 w-full min-w-[200px]">
+                        <input
+                          class="peer h-full w-full border-b border-gray-900 bg-transparent pt-4 pb-1.5 font-sans text-xl font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                          placeholder=" "
+                          type="text"
+                        />
+                        <label class="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-500 transition-all after:absolute after:-bottom-1.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-900 after:transition-transform after:duration-300 peer-placeholder-shown:text-xl peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-blue-gray-500 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                          Confirm Password
+                        </label>
+                      </div>
                 </div>
                 <div class="w-full flex flex-col items-center space-y-4">
-                    <button class="bg-accent py-1 px-4 rounded-lg text-secondary font-bold hover:bg-accent text-lg">Login</button>
-                    <p class="font-light text-sm">Not a Member? <a class="text-blue-950 hover:text-blue-700" href="">Register Now</a></p>
+                    <button class="bg-accent py-1 px-4 rounded-lg text-secondary font-bold hover:bg-accent text-lg">Create Account</button>
+                    <p class="font-light text-sm">Already have an Account?? <a class="text-blue-950 hover:text-blue-700" href="">Login Now</a></p>
                 </div>
             </div>
         </div>
